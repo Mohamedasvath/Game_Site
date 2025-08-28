@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_BACKEND_URL, // comes from .env file
+  baseURL: import.meta.env.BACKEND_URL, // comes from .env file
 });
 
 // Attach token automatically
