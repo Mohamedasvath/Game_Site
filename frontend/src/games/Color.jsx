@@ -138,12 +138,12 @@ export default function ColorMatchGame() {
   return (
     <motion.div className="min-h-screen bg-gray-900 flex flex-col items-center justify-center p-4 relative">
       <div className="w-full max-w-[640px] flex items-center justify-between mb-4 flex-wrap gap-2">
-        <button
+        {/* <button
           onClick={() => navigate("/games")}
           className="px-4 py-2 bg-pink-500 text-white font-bold rounded-xl shadow-lg hover:bg-pink-600"
         >
           ⬅ Back
-        </button>
+        </button> */}
         <h1 className="text-xl md:text-2xl font-extrabold text-cyan-400 drop-shadow">
           Color Match - Level {level} (Hard)
         </h1>

@@ -264,12 +264,12 @@ export default function Dino() {
     >
       {/* Header */}
       <div className="w-full max-w-[820px] flex items-center justify-between mb-3">
-        <button
+        {/* <button
           onClick={() => navigate("/")}
           className="px-4 py-2 bg-pink-500 text-white font-bold rounded-xl shadow-lg hover:bg-pink-600"
         >
           ⬅ Back
-        </button>
+        </button> */}
 
         <h1 className="text-xl md:text-2xl font-extrabold text-cyan-400 drop-shadow">
           Dino Runner 🦖

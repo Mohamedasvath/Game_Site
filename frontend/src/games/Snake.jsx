@@ -97,12 +97,12 @@ export default function SnakeGame() {
     <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-gray-900 to-black text-white p-3">
       {/* Back Button */}
       <div className="w-full max-w-[480px] flex justify-between items-center mb-3">
-        <button
-          onClick={() => navigate("/")}
+        {/* <button
+          onClick={() => navigate("/games")}
           className="px-4 py-2 bg-pink-500 text-white font-bold rounded-xl shadow-lg hover:bg-pink-600"
         >
           ⬅ Back
-        </button>
+        </button> */}
         <h1 className="text-3xl font-bold text-white">🐍 Neon Snake</h1>
         <div className="w-20"></div>
       </div>

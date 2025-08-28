@@ -177,12 +177,12 @@ export default function Sudoku() {
     <div className="min-h-screen bg-gray-900 p-4 flex flex-col items-center">
       {/* Top controls */}
       <div className="w-full max-w-3xl flex items-center justify-between mb-4 gap-4">
-        <button
+        {/* <button
           onClick={() => navigate("/")}
           className="px-4 py-2 bg-pink-500 text-white rounded-lg shadow hover:bg-pink-600"
         >
           ⬅ Back
-        </button>
+        </button> */}
 
         <div className="flex gap-2 items-center">
           <button

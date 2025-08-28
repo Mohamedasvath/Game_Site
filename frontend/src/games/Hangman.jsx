@@ -157,12 +157,12 @@ export default function Hangman() {
       <div className="w-full max-w-2xl">
         {/* Top controls */}
         <div className="flex items-center justify-between mb-4">
-          <button
+          {/* <button
             onClick={() => navigate("/")}
             className="px-4 py-2 bg-pink-500 text-white rounded-lg shadow hover:bg-pink-600"
           >
             ⬅ Back
-          </button>
+          </button> */}
 
           <div className="text-white text-sm md:text-base">
             Attempts: <span className="font-semibold">{wrongCount}/{maxWrong}</span>

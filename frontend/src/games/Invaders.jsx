@@ -225,9 +225,9 @@ export default function SpaceInvaders() {
   return (
     <div className="flex flex-col items-center justify-center bg-black p-4 min-h-screen relative">
       <div className="flex justify-between w-full max-w-[600px] mb-3 px-2">
-        <button onClick={() => navigate("/")} className="px-4 py-2 bg-pink-500 text-white rounded-lg">
+        {/* <button onClick={() => navigate("/")} className="px-4 py-2 bg-pink-500 text-white rounded-lg">
           ⬅ Back
-        </button>
+        </button> */}
         <div className="flex space-x-2">
           <button onClick={() => movePlayer(-20)} className="px-4 py-2 bg-blue-500 text-white rounded-lg">⬅</button>
           <button onClick={shoot} className="px-4 py-2 bg-green-500 text-white rounded-lg">Fire 🔥</button>

@@ -155,12 +155,12 @@ export default function Breakout({ onBack }) {
     >
       {/* Header */}
       <div className="absolute top-3 left-3">
-        <button
-    onClick={() => navigate("/")}
+        {/* <button
+    onClick={() => navigate("/games")}
     className="px-4 py-2 bg-pink-500 text-white font-bold rounded-xl shadow-lg hover:bg-pink-600"
   >
     ⬅ Back
-  </button>
+  </button> */}
       </div>
       <h1 className="text-2xl md:text-3xl font-bold text-cyan-400 drop-shadow-lg mb-2">
         Neon Breakout 🎇

@@ -160,12 +160,12 @@ export default function TicTacToe() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 p-4">
       {/* Header */}
       <div className="w-full max-w-md flex justify-between items-center mb-4">
-        <button
+        {/* <button
           onClick={() => navigate("/")}
           className="px-4 py-2 bg-pink-500 text-white rounded-lg"
         >
           ⬅ Back
-        </button>
+        </button> */}
         <div className="text-white text-sm">
           Round {round}/5
         </div>

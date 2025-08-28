@@ -237,7 +237,7 @@ export default function FruitNinja() {
   return (
     <div className="min-h-screen bg-black flex flex-col items-center justify-center relative p-3">
       <div className="w-full max-w-[480px] flex items-center justify-between mb-3">
-        <button onClick={() => navigate("/games")} className="px-4 py-2 bg-pink-500 text-white rounded-xl">⬅ Back</button>
+        
         <h1 className="text-xl font-bold text-cyan-400">Fruit Ninja 🍉</h1>
         <span className="text-white">Level: {level}</span>
       </div>

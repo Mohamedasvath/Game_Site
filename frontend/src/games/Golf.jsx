@@ -188,7 +188,7 @@ export default function MiniGolfGame() {
   return (
     <motion.div className="min-h-screen bg-green-800 flex flex-col items-center justify-center relative p-3" initial={{opacity:0}} animate={{opacity:1}}>
       <div className="w-full max-w-[480px] flex items-center justify-between mb-3">
-        <button onClick={()=>navigate("/games")} className="px-4 py-2 bg-pink-500 text-white font-bold rounded-xl shadow-lg hover:bg-pink-600">⬅ Back</button>
+        {/* <button onClick={()=>navigate("/games")} className="px-4 py-2 bg-pink-500 text-white font-bold rounded-xl shadow-lg hover:bg-pink-600">⬅ Back</button> */}
         <h1 className="text-xl md:text-2xl font-extrabold text-yellow-300 drop-shadow">Mini Golf ⛳</h1>
         <button onClick={()=>resetLevel()} className="px-4 py-2 bg-emerald-500 text-white font-bold rounded-xl shadow-lg hover:bg-emerald-600">↻ Restart</button>
       </div>

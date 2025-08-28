@@ -200,12 +200,12 @@ export default function Tetris() {
       {/* Header */}
       <div className="w-full max-w-[480px] flex items-center justify-between mb-2">
         <div className="flex items-center gap-2">
-          <button
-            onClick={() => navigate("/games")}
+          {/* <button
+            onClick={() => navigate("/")}
             className="px-2 py-1 rounded bg-gray-700 hover:bg-gray-600 shadow text-sm"
           >
             ← Back
-          </button>
+          </button> */}
           <h1 className="text-xl md:text-2xl font-extrabold tracking-wider">✨ Neon Tetris</h1>
         </div>
         <div className="text-right">

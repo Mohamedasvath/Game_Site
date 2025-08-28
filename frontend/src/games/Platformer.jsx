@@ -369,9 +369,9 @@ export default function Platformer() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-indigo-700 to-purple-800 p-4">
       <div className="w-full max-w-3xl flex justify-between items-center mb-3">
-        <button onClick={() => navigate("/")} className="px-4 py-2 bg-pink-500 text-white rounded-lg">
+        {/* <button onClick={() => navigate("/")} className="px-4 py-2 bg-pink-500 text-white rounded-lg">
           ⬅ Back
-        </button>
+        </button> */}
 
         <div className="text-white">
           <div className="text-lg font-semibold">Platformer</div>
