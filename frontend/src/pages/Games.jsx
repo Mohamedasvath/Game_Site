@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Link } from "react-router-dom";
 
 // 🎮 Import images
 import snake from "../assets/snake.jpg";
 import tetris from "../assets/tetris.jpg";
-import breakout from "../assets/breakout.jpg";
 import pong from "../assets/pong.png";
 import memory from "../assets/memory.jpg";
 import flappy from "../assets/flappy.jpg";
@@ -101,7 +101,7 @@ export default function Games() {
   const games = [
     { id: 1, name: "Snake Game", image: snake, component: <Snake /> },
     { id: 2, name: "Tetris", image: tetris, component: <Tetris /> },
-    { id: 3, name: "Breakout", image: breakout, component: <Breakout /> },
+    { id: 3, name: "Breakout", image:'https://www.coolmathgames.com/sites/default/files/Breakout_OG-logo.jpg', component: <Breakout /> },
     { id: 4, name: "Pong", image: pong, component: <Pong /> },
     { id: 5, name: "Memory Match", image: memory, component: <MemoryMatchNeon /> },
     { id: 6, name: "Flappy Bird", image: flappy, component: <FlappyBird /> },
@@ -182,11 +182,11 @@ export default function Games() {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1607083206173-3e4e7b6f6c2a?auto=format&fit=crop&w=1920&q=80"
+          src="https://www.ediiie.com/blog/assets/admin/uploads/Storytelling-in-video-games-development.jpg"
           alt="Background"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-indigo-700 via-sky-800 to-blue-400 opacity-70" />
+        <div className="absolute inset-0 bg-gradient-to-r from-purple-700 via-purple-800 to-purple-800 opacity-70" />
       </div>
 
       {/* Header */}
@@ -406,18 +406,18 @@ export default function Games() {
       >
         🚀 GitHub
       </a>
-      <a
-        href="mohamedasvath01@gmail.com"
+      <Link
+        to="/contact"
         className="text-gray-300 hover:text-yellow-400 hover:scale-105 transition duration-200"
       >
         📬 Contact
-      </a>
-      <a
-        href="#"
+      </Link>
+      <Link
+        to="/privacy"
         className="text-gray-300 hover:text-red-400 hover:scale-105 transition duration-200"
       >
         🔒 Privacy
-      </a>
+      </Link>
       
     </div>
 
