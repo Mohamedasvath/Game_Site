@@ -40,7 +40,7 @@ import MemoryMatchNeon from "../games/MemoryGame";
 import FlappyBird from "../games/Flappybird";
 import Game2048 from "../games/Game2048";
 import SpaceInvaders from "../games/Invaders";
-import TicTacToe from "../games/TicTacToe";
+import TicTacToe from "../games/Tictactoe"
 import Hangman from "../games/Hangman";
 import Sudoku from "../games/Sudoku";
 import WhacAMole from "../games/Whack-a-mole";
